@@ -27,7 +27,8 @@ You check the checkmarks for the facial features of a person, and the program gu
 
 Author: Walter Sias walt.sias@gmail.com
 
-## Acknowledgements
+## Acknowledgements 
+I studied and watched the classes over again, and got some of the stuff done. but I could not get the answer to actually come up. 
 
 - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_checkbox2
 - https://www.w3schools.com/jsref/prop_checkbox_checked.asp
