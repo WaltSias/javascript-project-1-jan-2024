@@ -18,14 +18,14 @@ You check the checkmarks for the facial features of a person, and the program gu
 
 ## Roadmap
 
-- [ ] index.html
-- [ ] script.js
-- [ ] 
-- [ ] Bootstrap included
+- [x] index.html
+- [x] script.js
+- [x] layout.css
+- [x] Bootstrap included
 
 ## Contact
 
-Author: 
+Author: Walter Sias walt.sias@gmail.com
 
 ## Acknowledgements
 
