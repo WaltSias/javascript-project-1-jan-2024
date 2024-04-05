@@ -28,7 +28,7 @@ You check the checkmarks for the facial features of a person, and the program gu
 Author: Walter Sias walt.sias@gmail.com
 
 ## Acknowledgements 
-I studied and watched the classes over again, and got some of the stuff done. but I could not get the answer to actually come up. 
+I re-watched the classes for that week and saw my mistakes i was using both the function and writing out each "let" out. I realized where to put the alert listener but was confused at first. the video class on youtube really helped out. Im saying this because I once knew how to do this while I was in class but was so confused as of now, that is why keeping up with projects are important. 
 
 - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_checkbox2
 - https://www.w3schools.com/jsref/prop_checkbox_checked.asp
