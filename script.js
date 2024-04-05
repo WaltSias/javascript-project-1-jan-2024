@@ -1,40 +1,23 @@
-getGuess.onclick = function () {
-    let Guess = findguesswho(true, true, true);
-    console.log(guess);
-    resultDiv.textContent = Guess;
+guessButton.onclick = function () {
+    let blackHair = blackHairCheckbox.checked;
+    let glasses = glassesCheckbox.checked;
+    let woman = womanCheckbox.checked;
+    let hat = hatCheckbox.checked;
 
-    function guessWho() {
-        alert("You are Correct!");
+    let anne = !hat && blackHair && !glasses && woman;
+    let mary = hat && !blackHair && !glasses && woman;
+    let ashley = hat && !blackHair && glasses && woman;
+    let bob = !hat && blackHair && !glasses && !woman;
+
+    if (anne) {
+        alert('I am Anne');
+    } else if (mary) {
+        alert('I am Mary');
+    } else if (ashley) {
+        alert('I am Ashley');
+    } else if (bob) {
+        alert('I am Bob');
+    } else {
+        alert('Not Quite, Guess Again?');
     }
-    let guesswho = function (hasHair, hasNoglasses, wearingHat) {
-        let hasNOglasses = true
-        let wearingHat = true
-        let hasGlasses = false
-        let hasHair = true
-
-        let guessWho = isMary
-
-        let isMary = hasHair && hasNOglasses && wearingHat;
-        let isHerman = hasHair && hasNoglasses && !wearingHat;
-        let isAnne = hasHair && hasNoglasses && !wearingHat;
-        let isTom = hasHair && hasGlasses && !wearingHat;
-
-        if (isMary) {
-            alert = ("Congrats I am Mary");
-            guessWho = "Mary"
-            if (isHerman) {
-                alert = ("umm Not quite the answer")
-                guessWho = "Herman"
-            } else if (isTom) {
-                alert = ("well I have glass, so no!")
-                guessWho = "Tom"
-            } if (isAnne) {
-                alert = ("not me Anne, I don't have a hat")
-                guessWho = "Anne"
-            }
-        }
-        return guesswho;
-
-    }
-
-}
+}; 
