@@ -2,7 +2,7 @@
 
 This is a website that solves a game of Guess Who?
 
-You check the checkmarks for the facial features of a person, and the program guesses who it is. If there is no match, it will tell you there isn't a match.
+You check the checkboxes for the facial features of a person, and the program guesses who it is. If there is no match, it will tell you there isn't a match.
 
 ## About
 
@@ -22,6 +22,7 @@ You check the checkmarks for the facial features of a person, and the program gu
 - [x] script.js
 - [x] layout.css
 - [x] Bootstrap included
+- [x] added images
 
 ## Contact
 
